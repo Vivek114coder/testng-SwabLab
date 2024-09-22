@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Listener.TestListener"></listener>
+</listeners>
+ <test name="scource">
+ <parameter name="username" value="standart_user"/>
+ <parameter name="password" value="secret_scauce"/>
+ <classes>
+ <class name="PageObject.TestClass">
+ </class>
+ </classes>
+ </test>
+ <!-- <methods>
+ <include name="imformationPage"></include>
+ </methods-->
+ 
+</suite> <!-- Suite -->
